@@ -88,9 +88,6 @@ h1, h2, h3 {
     width:auto;
 }
 
-#intro-pic {
-    
-}
 
 #intro-text {
     align-self: center;
@@ -178,7 +175,7 @@ h1, h2, h3 {
 }
 
 #a-resume, #a-linkedin, #a-github, #a-instagram {
-    height:45px;
+    height:43px;
 }
 
 #skills-wrapper {

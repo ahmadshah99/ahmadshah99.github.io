@@ -116,7 +116,7 @@ h1, h2, h3 {
 }
 
 .section {
-    height:100vh;
+    min-height:100vh;
 }
 
 .section:nth-child(2n) {
@@ -148,19 +148,41 @@ h1, h2, h3 {
     padding: 25px;
     font-size:70px;
     text-align:center;
-    color: #66FCF1
+    color: #66FCF1;
 }
 
 #main-text {
     background-color:black;
     padding:20px;
     opacity: 0.8;
-    text-align: left;
+    text-align:justify;
     margin:20px;
     font-size:24px;
 }
 
+#main-text a {
+    text-decoration: none;
+    color:green;
+}
+
+#about-links {
+    text-align:center;
+    background-color:white;
+    padding:15px;
+    border-radius:30px;
+}
+
+#about-links li {
+    display:inline-block;
+    padding-left:50px;
+}
+
+#a-resume, #a-linkedin, #a-github, #a-instagram {
+    height:45px;
+}
+
 #skills-wrapper {
+    margin:20px;
     display: flex;
 }
 
@@ -171,6 +193,123 @@ h1, h2, h3 {
     color: #66FCF1
 }
 
-.skills-item {
-    padding-right:50px;   
+#skills ul {
+    list-style: none;
+    padding:0;
+    margin:0;
 }
+
+#skills li {
+    padding:15px;
+}
+
+.skills-item {
+    padding-right:100px;   
+    margin-bottom:20px;
+}
+
+#footer {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    width:100%;
+    padding:20px;
+    color:white;
+    background-color:rgb(59, 56, 56);
+}
+
+#footer a {
+    text-decoration: underline;
+    color: white;
+}
+
+.pbar {
+    position:relative;
+    left:10px;
+    width:400px;
+    background-color:gray;
+    height:20px;
+    border-radius:30px;
+}
+
+.pbarfill {
+    position: absolute;
+    border-radius:30px;
+    background-color:rgb(7, 160, 45);
+    top:0;
+    left:0;
+    z-index:10;
+    height:100%;
+}
+
+#python {
+    width:85%;
+}
+
+#java {
+    width:83%;
+}
+
+#csharp {
+    width:65%;
+}
+
+#c {
+    width:40%;
+}
+
+#js {
+   width: 60%; 
+}
+
+#html {
+    width:80%;
+}
+
+#css {
+    width:80%;
+}
+
+#ss {
+    width: 60%;
+}
+
+#git {
+    width: 70%;
+}
+
+#svn {
+    width:75%;
+}
+
+#microsoft {
+    width:90%;
+}
+
+#latex {
+    width:50%;
+}
+
+#unix {
+    width:40%;
+}
+
+#english {
+    width:100%;
+}
+
+#urdu {
+    width:95%;
+}
+
+#hindi {
+    width:90%;
+}
+
+#punjabi {
+    width:40%;
+}
+
+#french {
+    width:75%;
+}
+

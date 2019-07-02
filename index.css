@@ -1,9 +1,12 @@
 html {
     scroll-behavior: smooth;
+    width: 100%;
+    margin: 0;
 }
 
 body {
     height: 100%;
+    width: 95%;
     margin:0;
     padding:0;
     background-color: #1f2833;
@@ -19,7 +22,7 @@ h1, h2, h3 {
 #header {
     background-color: #1a212b;
     text-align: center;
-    width:100%;         
+    width:105%;         
     padding:1px;
     font-size: 28px;
 }
@@ -70,6 +73,7 @@ h1, h2, h3 {
     text-align:center;
     margin:0px;
     min-height:100vh;
+    padding-bottom: 0;
 }
 
 #intro-wrapper {
@@ -114,6 +118,8 @@ h1, h2, h3 {
 
 .section {
     min-height:100vh;
+    padding-bottom: 20px;
+    width:105%;
 }
 
 .section:nth-child(2n) {
@@ -247,11 +253,11 @@ h1, h2, h3 {
 }
 
 #csharp {
-    width:65%;
+    width:25%;
 }
 
 #c {
-    width:40%;
+    width:30%;
 }
 
 #js {
@@ -267,7 +273,7 @@ h1, h2, h3 {
 }
 
 #ss {
-    width: 60%;
+    width: 30%;
 }
 
 #git {
@@ -310,3 +316,43 @@ h1, h2, h3 {
     width:75%;
 }
 
+#side-projects h1 {
+    padding: 25px;
+    font-size:70px;
+    text-align:center;
+    color: #66FCF1
+}
+
+.project-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: greenyellow;
+    padding-bottom: 5px;
+    border-bottom: solid 2px greenyellow;
+} 
+
+.project {
+    margin: 20px;
+    width: 95%;
+    padding: 30px;
+    margin-bottom: 0px;;
+    border: solid 2px white;
+    background-color: black;
+}
+
+.project-description {
+    font-size: 18px;
+    padding: 10px;
+    display: none;
+    border: dashed 2px white;
+    width: 100%;
+    list-style-type: none;
+}
+
+.project-description a {
+    color: rgba(20, 137, 233, 0.979);
+}
+
+.project-description li {
+    padding: 5px;
+}

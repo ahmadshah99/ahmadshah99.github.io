@@ -5,10 +5,12 @@ $(document).ready(function(){
     
     function show_side_project(curr) {
         let curr_desc = curr.parent().next('.sp-description');
-        if (curr_desc.css('display') == 'none' || curr_desc.css('display') == 'hidden') {
+        if (curr.text() == '-') {
             curr.text('+');
+            curr.css('color', 'green');
         } else {
             curr.text('-');
+            curr.css('color', 'red');
         }
         curr_desc.slideToggle();
     }

@@ -36,6 +36,7 @@ header {
 
 #intro {
     background: url("./backgroundToronto.jpg");
+    background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -107,8 +108,17 @@ header {
     width: 200px;
 }
 
+.experience-list-div img {
+    padding-right: 15px;
+}
+
 .experience-list {
     list-style-position: inside;
+    padding-left: 0;
+}
+
+.experience-list li {
+    word-break: break-all;
 }
 
 .experience-list-div {

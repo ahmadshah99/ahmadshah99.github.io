@@ -5,7 +5,7 @@ $(document).ready(function(){
     
     function show_side_project(curr) {
         let curr_desc = curr.parent().next('.sp-description');
-        if (curr_desc.css('height') == 0 || curr_desc.css('display') == 'hidden') {
+        if (curr_desc.css('display') == 'none' || curr_desc.css('display') == 'hidden') {
             curr.text('+');
         } else {
             curr.text('-');

@@ -1,314 +1,245 @@
+<!--MY SITE 
+    <div>Icons made by <a href="https://www.flaticon.com/authors/alfredo-hernandez" title="Alfredo Hernandez">Alfredo Hernandez</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
+-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Ahmad Shah</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/089d42ac03.js"></script>
     </head>
 
     <body>
-        <div id="wrapper">
-            <div id="header">
-                <ul>
-                    <li><a href="#intro">Home</a></li>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#side-projects">Side Projects</a></li>
-                </ul>
-            </div>
-
-            <div id="main">
-                <div class="section" id="intro">
-                    <div id="intro-wrapper">
-                        <div id="intro-pic">
-                                <img id="portrait" src="portrait.jpeg"/>
-                        </div>
-
-                        <div id="intro-text">
-                            <h1>Hi, it's <span class="color-text">Ahmad</span></h1>
-                            <h2>Computer Science Specialist</h2>
-                            <h3>University of Toronto</h3>
-                            <div id="theme-wrapper">
-                                <div class="theme-div" id="dark"></div>
-                                <div class="theme-div" id="orange"></div>
-                                <div class="theme-div" id="green"></div>
+        <header>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                    <a class="navbar-brand" href="#home">Ahmad Shah</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-toggler" aria-controls="#nav-toggler" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="nav-toggler">
+                            <div class="navbar-nav ml-auto">
+                                <a class="nav-item nav-link" href="#aboutMe">About Me</a>
+                                <a class="nav-item nav-link" href="#experience">experience</a>
+                                <a class="nav-item nav-link" href="#side-projects">side projects</a>
                             </div>
                         </div>
+                </nav>
+            </div>
+
+            <div id="intro" class="view">
+                <div class="mask"></div>
+            </div>
+        </header>   
+
+        <main class="d-flex">
+            <div id="mainPage" class="col-lg-10 col-md-12">
+                <div class="section" id="aboutMe">
+                    <div class="container-fluid">
+                        <div class="display-3 text-center sectionHeader">P<span class="smallerHeader">assionate &</span> D<span class="smallerHeader">riven</span></div>
+                        <div class="sectionLine" id="abo-line"></div>
+                        <div class="container">
+                                <img src="./ahmadPortrait.jpeg" id="ahmadPortrait"/>
+                                <p><span class="h2">H</span>ey it's Ahmad. I'm a 3rd year student at the University of Toronto Scarborough, and I'm pursuing
+                                a specialization in Computer Science. I have a huge passion for programming and creating cool tools that I can see being 
+                                used in action. My programming language of choice is Python, however I am proficient in Java and Javascript (and HTML/CSS) as well.
+                                My goals are to become proficient in Kotlin (for Android App Development) and C# so that I can learn to make games in Unity.
+                                </p>
+    
+                                <p>Other than programming, I am also passionate about learning languages (the ones humans can understand)! I've learned French to
+                                    a high proficiency and hope to learn Spanish one day as well. I also love the Maple Leafs and enjoy playing video games on occasion. 
+                                </p>
+    
+                                <p> Feel free to peruse this website, which I hope eventually becomes the one-stop-shop for anyone who wishes to learn about me and my skills.
+                                    Thanks for taking the time to read this. Here are some links to help you out:
+                                </p>
+                                
+                                <div class="icons d-flex justify-content-center">
+                                    <a class="text-dark px-3 mt-2" href="https://github.com/ahmadshah99">
+                                        <i class="about-me-icon fab fa-github"></i>
+                                    </a>
+                                    <a class="text-dark px-3 mt-2" href="https://www.linkedin.com/in/ahmad-shah-1201a7168/">
+                                        <i class="about-me-icon fab fa-linkedin"></i>
+                                    </a>
+                                    <a class="text-dark px-3 mt-2" href="./RealResume.pdf" download="ShahAhmadResume">
+                                        <i class="about-me-icon far fa-file-pdf"></i>
+                                    </a>
+                                </div>
+                            </div> 
                     </div>
                 </div>
-
-                <div  class="section" id="about-me">
-                    <h1 class='color-text'>Who am I?</h1>
-                    <div id="main-text">
-                        <p>I'm Ahmad Shah. I'm currently specializing in Computer Science at the University of Toronto Scarborough.
-                        I've been coding for the better part of 5 years, and I strive to get better and better as time goes on. I don't worry
-                        too much about the future, but I do aspire to be a crucial and important member of a software development team some time
-                        in the near future. In the mean time I will continue to do my best to become a better programmer and developer, and to not
-                        lose sight of what caused me to love CS in the first place.</p>
-
-                        <p>I am passionate about web-development, and am always looking to learn more about HTML, CSS, and Javascript. I am also
-                           currently learning the MEAN stack (MongoDB, ExpressJS, AngularJS, NodeJS) to create full stack web applications. I also
-                           enjoy coding in Java and Python, and want to eventually get started on a simple game in Unity.
-                        </p>
+                    
+                <div class="section" id="experience">
+                    <div class="display-3 text-center sectionHeader">E<span class="smallerHeader">xperience</span></div>
+                    <div class="sectionLine" id="exp-line"></div>
+                    
+                    <div id="experience-main" class="container">
+                        <h3 class="experience-title">Cineplex Digital Media</h3>
+                        <div class="experience-list-div d-flex">
+                            <img src="./cineplex.jpg" id="cineplex-img" class="exp-img"/>
+                            <ul class="experience-list">
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li>Cras feugiat sem ac lacus elementum, vel varius lacus porta.</li>
+                                <li>Suspendisse in purus quis dolor imperdiet condimentum. Donec hendrerit ante egestas efficitur dapibus.</li>
+                            </ul>
+                        </div>
                         
-                        <p> My passion for Computer Science is only rivaled by my love for hockey (GO LEAFS GO!) and history. 
-                            I am also very interested in language acquistion
-                            and learning. I have learned French to an advanced level, and am currently tackling Spanish. I hope to become a polyglot one day.
-                        </p>
-
-                        <p> This website is a digital representation of my entire career as a CS student. Feel free to look around! Also check out these links
-                            to help you get started:
-                        </p>
-
-                        <div>
-                            <ul id="about-links">
-                                <li> <a href="RealResume.pdf" download> <img src="resume.png" id="a-resume">  </a></li>
-                                <li> <a href="https://github.com/ahmadshah99"><img id="a-github" src="github-logo.png"></a></li>
-                                <li> <a href="https://www.linkedin.com/in/ahmad-shah-1201a7168/"><img id="a-linkedin" src="linkedin-logo.png"></a></li>
-                                <li> <a href="https://www.instagram.com/ahmadshah99/"><img id="a-instagram" src="instagram.png"></a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="section" id="skills">
-                    <h1 class='color-text'> Skills:</h1>
-
-                    <div id="skills-wrapper">
-                        <div class="skills-item" id="programming">
-                            <h2>Programming/Markup Languages:</h2>
-                            <ul>
-                                <li>Python</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="python"></div>
-                                </div>
-
-                                <li>Java</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="java"></div>
-                                </div>
-
-                                <li>C#</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="csharp"></div>
-                                </div>
-
-                                <li>C</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="c"></div>
-                                </div>
-
-                                <li>JavaScript</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="js"></div>
-                                </div>
-
-                                <li>HTML</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="html"></div>
-                                </div>
-
-                                <li>CSS</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="css"></div>
-                                </div>
-
-                                <li>Shell Scripting</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="ss"></div>
-                                </div>
-
-                            </ul>
-                        </div>
-
-                        <div class="skills-item" id="other">
-                            <h2>Other Software:</h2>
-                            <ul>
-                                <li>Git</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="git"></div>
-                                </div>
-
-                                <li>Subversion</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="svn"></div>
-                                </div>
-
-                                <li>Microsoft Office</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="microsoft"></div>
-                                </div>
-
-                                <li>LaTeX</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="latex"></div>
-                                </div>
-
-                                <li>Unix</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="unix"></div>
-                                </div>
-
-                            </ul>
-                        </div>
-
-                        <div class="skills-item" id="other">
-                            <h2>Languages:</h2>
-                            <ul>
-                                <li>English</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="english"></div>
-                                </div>
-
-                                <li>Urdu</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="urdu"></div>
-                                </div>
-                                
-                                <li>Hindi</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="hindi"></div>
-                                </div>
-
-                                
-                                <li>French</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="french"></div>
-                                </div> 
-
-                                <li>Punjabi</li>
-
-                                <div class="pbar"> 
-                                    <div class="pbarfill" id="punjabi"></div>
-                                </div>
+                        <h3 class="experience-title">mobileLive Inc</h3>
+                        <div class="experience-list-div d-flex">
+                            <img src="./mobileLive.png" id="mobileLive-img" class="exp-img"/>
+                            <ul class="experience-list">
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li>Cras feugiat sem ac lacus elementum, vel varius lacus porta.</li>
+                                <li>Suspendisse in purus quis dolor imperdiet condimentum. Donec hendrerit ante egestas efficitur dapibus.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="section" id="side-projects">
-                    <h1 class='color-text'>Side Projects and Work Samples</h1>
-                    <div class="project" id="boi-bootlegged">
-                        <span class="project-title">Binding of Isaac: Bootlegged</span>
-                        <ul class="project-description">
-                            <li>
-                                Created a "Binding of Isaac" clone using Greenfoot and Java
-                            </li>
-                            <li>
-                                Developed in a team of 3, using version control and AGILE development techniques
-                            </li>
-                            <li>
-                                Used SOLID design principles and Object Oriented Programming
-                            </li>
-                            <li>
-                                Reduced version available to play <a href="https://www.greenfoot.org/scenarios/23742">here</a>.
-                            </li>
-                        </ul>
+                    <div class="display-3 text-center sectionHeader">S<span class="smallerHeader">ide Projects &</span> W<span class="smallerHeader">ork Samples</span></div>
+                    <div class="sectionLine" id="sid-line"></div> 
+                    <div id="side-projects-grid" class="d-flex col-12 col-lg-10 flex-wrap justify-content-between align-item">
+                        <div class="sp-grid-div" id="sp-course-website">
+                            <img src="./courseSite.png"/>
+                            <div class="d-flex"><h3 class="sp-title">Course Website</h1><div class="extend-sp">+</div></div>
+                            <div class="sp-description">
+                                <ul class="sp-desc-list" id="course-site">
+                                    <li>Created a course website for one of my university courses using HTML, CSS, JavaScript, JQuery, SQL and Flask</li>
+                                    <li>Only allowed authorized users to access the website. To this end, the user was allowed to create accounts using HTTP requests and then these accounts were stored in an SQL database</li>
+                                    <li>Allowed users to create accounts and log in as either a student user or instructor, and displayed different information to the user depending on user type. Instructor users were allowed to edit and input marks of all valid student users, while the student users could view these marks.</li>
+                                    <li>Used flexbox to implement table-less design</li>
+                                    <li>Used media queries to make website responsive</li>
+                                    <li>Created a sticky header and a fixed footer</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sp-grid-div" id="sp-boi-bootlegged">
+                            <img src="./boi-bootlegged.png"/>
+                            <div class="d-flex"><h3 class="sp-title">Binding of Isaac - Bootlegged</h1><div class="extend-sp">+</div></div>
+                            <div class="sp-description">
+                                <ul class="sp-desc-list" id="boi-bootlegged">
+                                    <li>Created a "Binding of Isaac" clone using Greenfoot and Java</li>
+                                    <li>Developed in a team of 3, using version control and AGILE development techniques</li>
+                                    <li>Used SOLID design principles and Object Oriented Programming</li>
+                                </ul>
+                            </div>   
+                        </div>
+                        <div class="sp-grid-div" id="sp-unix-shell-terminal">
+                            <img src="./shell-terminal.jpg"/>
+                            <div class="d-flex"><h3 class="sp-title">Unix Shell Terminal</h1><div class="extend-sp">+</div></div>
+                            <div class="sp-description">
+                                    <ul class="sp-desc-list" id="unix-shell-terminal">
+                                        <li>Worked in groups of four to create a functioning unix shell terminal using Java</li>
+                                        <li>>Used AGILE development methods and worked in an environment that closely resembled a real life development environment</li>
+                                        <li>Used OOP and SOLID design principles.</li>
+                                        <li>Used Subversion for version control</li>
+                                        <li>Placeholder image used since I don't have access to this project anymore</li>
+                                    </ul>
+                                </div>   
+                       </div>
+                        <div class="sp-grid-div" id="sp-personal-website">
+                            <img src="./personal-site.png"/>
+                            <div class="d-flex"><h3 class="sp-title">Personal Website</h1><div class="extend-sp">+</div></div>
+                            <div class="sp-description">
+                                <ul class="sp-desc-list" id="personal-site">
+                                    <li>You're currently looking at it!</li>
+                                    <li>Created using HTML, CSS and Javascript/Jquery</li>
+                                    <li>Used bootstrap to make a clean, responsive layout</li>
+                                </ul>
+                            </div>   
+                        </div>
+                        <div class="sp-grid-div" id="mastermind-game">
+                            <img src=""/>
+                            <div class="d-flex"><h3 class="sp-title">Mastermind Game</h1><div class="extend-sp">+</div></div>
+                            <div class="sp-description">
+                                <ul class="sp-desc-list" id="course-site">
+          
+                                </ul>
+                            </div>   
+                       </div>                        
+                    </div>                   
+                </div>
+            </div>
+            
+            <div id="sidebar" class="flex-grow text-light col-2 d-none d-lg-block">
+                <div class="container d-flex flex-column justify-content-center">
+                    <h1 class="text-uppercase font-weight-light">L<span class="h3 text-uppercase">anguages</span></h1>
+
+        
+                    <p id="python" class="lang-title">Python</p>
+                    <div id="python-empty" class="progress-bar-empty">
+                        <div class="progress-bar-fill" id="python-fill"></div>
                     </div>
 
-                    <div class="project" id="b20website">
-                        <span class="project-title">CSCB20 Course Website</span>
-                        <ul class="project-description">
-                            <li>Created a course website for one of my university courses using HTML, CSS, JavaScript, JQuery, SQL and Flask</li>
-                            <li>Only allowed authorized users to access the website. To this end, the user was allowed to 
-                                create accounts using HTTP requests and then these accounts were stored in an SQL database</li>
-                            <li>Allowed users to create accounts and log in as either a student user or instructor, and displayed
-                                different information to the user depending on user type. Instructor users were allowed to edit and input
-                                marks of all valid student users, while the student users could view these marks.
-                            </li>
-                            <li>Used flexbox to implement table-less design</li>
-                            <li>Used media queries to make website responsive</li>
-                            <li>Created a sticky header and a fixed footer</li>
-                        </ul>
-                    </div> 
+                    <p id="java" class="lang-title">Java</p>
+                    <div class="progress-bar-empty">
+                        <div class="progress-bar-fill" id="java-fill"></div>
+                    </div>
+
+                    <p id="javascript" class="lang-title">Javascript</p>
+                    <div class="progress-bar-empty">
+                        <div class="progress-bar-fill" id="javascript-fill"></div>
+                    </div>
+
+                    <p id="html-css" class="lang-title">HTML/CSS</p>
+                    <div class="progress-bar-empty">
+                        <div class="progress-bar-fill" id="html-css-fill"></div>
+                    </div>
 
 
-                    <div class="project" id="unix-shell">
-                        <span class="project-title">Unix Shell Terminal</span>
-                        <ul class="project-description">
-                            <li>Worked in groups of four to create a functioning unix shell terminal using Java</li>
-                            <li>Used AGILE development methods and worked in an environment that closely resembled a real life development environment</li>
-                            <li>Used OOP and SOLID design principles.</li>
-                            <li>Used Subversion for version control</li>
-                        </ul>
-                    </div> 
+                    <p id="sql" class="lang-title">SQL</p>
+                    <div class="progress-bar-empty">
+                        <div class="progress-bar-fill" id="sql-fill"></div>
+                    </div>
 
+                    <p id="shell-scripting" class="lang-title">Bash Scripting</p>
+                    <div class="progress-bar-empty">
+                        <div class="progress-bar-fill" id="shell-scripting-fill"></div>
+                    </div>
+        
 
-                    <div class="project" id="personal-site">
-                        <span class="project-title">Personal Website</span>
-                        <ul class="project-description">
-                            <li>You're currently looking at it!</li>
-                            <li>Created using HTML, CSS and JavaScript</li>
-                            <li>Hope to improve it using Bootstrap soon</li>
-                        </ul>
-                    </div> 
+                    <h1 class="text-uppercase font-weight-light">F<span class="h3 text-uppercase">rameworks</span></h1>
+                    
+                    <ul class="sidebar-list">
+                        <li>Flask</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                    
+                    <h1 class="text-uppercase font-weight-light">O<span class="h3 text-uppercase">ther</span></h1>
+                    
+                    <ul class="sidebar-list">
+                        <li>Git</li>
+                        <li>Subversion</li>
+                        <li>LaTex</li>
+                        <li>Microsoft Office</li>
+                    </ul>
+                    
+                    <h1 class="text-uppercase font-weight-light">L<span class="h3 text-uppercase">anguages <span class="h6 text-uppercase">(Human)</span></span></h1>
+                    <ul class="sidebar-list">
+                        <li>English</li>
+                        <li>French</li>
+                        <li>Urdu</li>
+                    </ul>
+
+                    <h1 class="text-uppercase font-weight-light">C<span class="h3 text-uppercase">ontact me</span></h1>
+                    <div class="contact-table">
+                        <p><b>Email:</b><br>
+                        ahmadalishah1999@outlook.com</p>
+                        <p><a href="https://github.com/ahmadshah99">Github</a></p>
+                        <p><a href="https://www.linkedin.com/in/ahmad-shah-1201a7168/">LinkedIn</a></p>
+                    </div>
                 </div>
             </div>
-
-            <div class="section" id="poem">
-                <h2 class="color-text">And I leave you with my favourite poem...</h2>
-                <div id="poem">
-                    <h3>Invictus</h3>
-                    <p>
-                        Out of the night that covers me, <br>
-                        Black as a pit from pole to pole, <br>
-                        I thank whatever gods may be <br>
-                        For my unconquerable soul.
-                    </p>
-
-                    <p>
-                        In the fell clutch of circumstance <br>
-                        I have neither winced, nor cried aloud. <br>
-                        Under the bludgeonings of chance <br>
-                        My head is bloody, but unbowed.
-                    </p>
-
-                    <p>
-                        Beyond this place of wrath and tears <br>
-                        Looms but the Horror of the shade, <br>
-                        And yet the menace of the years <br>
-                        Finds and shall find me unafraid.
-                    </p>
-
-                    <p>
-                        It matters not how strait the gate, <br>
-                        How charged with punishments the scroll, <br>
-                        I am the master of my fate, <br>
-                        I am the captain of my soul.
-                    </p>
-
-                    <p id="author-name"> - William Ernest Henley</p>
-                </div>
-            </div>
-
-            <div id="footer">
-                <div id="contact-text">Please feel free to reach me at <span id="email">ahmadalishah1999@outlook.com</span> for all inquiries.</div>
-                <div>© Copyright 2019 Ahmad Shah All Rights Reserved</div>
-                <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-                <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-                <div>Icons made by <a href="https://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-                <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-            </div>
-
-            <script src="index.js"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        </div>
+        </main>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
     </body>
 </html>

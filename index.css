@@ -90,7 +90,6 @@ header {
 
 .experience-title {
     margin-bottom: 15px;
-    border-bottom: dotted 2px black;
 }
 
 #exp-line {
@@ -109,7 +108,7 @@ header {
 }
 
 .experience-list-div img {
-    padding-right: 15px;
+    margin-right: 15px;
 }
 
 .experience-list {
@@ -129,14 +128,15 @@ header {
 .sp-grid-div {
     height: auto;
     width: auto;
-    padding: 10px;  
+    padding: 5px;
+    margin: 5px;
 }
 
 .sp-grid-div img {
-    background-image: url('placeholder.png');
     height: 250px;
-    width:400px;
+    width: 300px;
     border: solid 1px black;
+    margin: 20px;
 }
 
 /*SIDEBAR*/
